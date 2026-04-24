@@ -1,0 +1,66 @@
+.vercel
+# ═══ SECRETS (НАЙВАЖЛИВІШЕ — НЕ КОМІТИТИ!) ═══
+.env
+.env.local
+.env.*.local
+.env.development
+.env.production
+.env.test
+*.pem
+*.key
+
+# ═══ DEPENDENCIES ═══
+node_modules/
+jspm_packages/
+bower_components/
+
+# ═══ VERCEL ═══
+.vercel/
+.now/
+
+# ═══ BUILD OUTPUT ═══
+dist/
+build/
+out/
+.next/
+.nuxt/
+.cache/
+.parcel-cache/
+.turbo/
+
+# ═══ LOGS ═══
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ═══ TESTING ═══
+coverage/
+.nyc_output/
+
+# ═══ IDE / EDITORS ═══
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ═══ OS SYSTEM FILES ═══
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+$RECYCLE.BIN/
+
+# ═══ TEMP / MISC ═══
+*.tmp
+*.temp
+*.bak
+*.orig
+*.tsbuildinfo
+.eslintcache

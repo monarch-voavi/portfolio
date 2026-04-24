@@ -1,0 +1,13 @@
+{
+  "name": "avilov-portfolio",
+  "version": "1.0.0",
+  "description": "Volodymyr Avilov — Frontend & Fullstack Developer portfolio",
+  "private": true,
+  "scripts": {
+    "build": "echo 'Static site, no build needed'",
+    "deploy": "vercel --prod"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
