@@ -1,0 +1,35 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(mkdir -p \"C:\\\\Users\\\\ASUS\\\\OneDrive\\\\Робочий стіл\\\\Папка в папці\\\\Portfolio\\\\esports-dashboard/app/bracket\")",
+      "Bash(mkdir -p \"C:\\\\Users\\\\ASUS\\\\OneDrive\\\\Робочий стіл\\\\Папка в папці\\\\Portfolio\\\\esports-dashboard/app/matches\")",
+      "Bash(mkdir -p \"C:\\\\Users\\\\ASUS\\\\OneDrive\\\\Робочий стіл\\\\Папка в папці\\\\Portfolio\\\\esports-dashboard/app/players\")",
+      "Bash(mkdir -p \"C:\\\\Users\\\\ASUS\\\\OneDrive\\\\Робочий стіл\\\\Папка в папці\\\\Portfolio\\\\esports-dashboard/app/teams\")",
+      "Bash(mkdir -p \"C:\\\\Users\\\\ASUS\\\\OneDrive\\\\Робочий стіл\\\\Папка в папці\\\\Portfolio\\\\esports-dashboard/app/api/matches\")",
+      "Bash(mkdir -p \"C:\\\\Users\\\\ASUS\\\\OneDrive\\\\Робочий стіл\\\\Папка в папці\\\\Portfolio\\\\esports-dashboard/components/layout\")",
+      "Bash(mkdir -p \"C:\\\\Users\\\\ASUS\\\\OneDrive\\\\Робочий стіл\\\\Папка в папці\\\\Portfolio\\\\esports-dashboard/components/bracket\")",
+      "Bash(mkdir -p \"C:\\\\Users\\\\ASUS\\\\OneDrive\\\\Робочий стіл\\\\Папка в папці\\\\Portfolio\\\\esports-dashboard/components/matches\")",
+      "Bash(mkdir -p \"C:\\\\Users\\\\ASUS\\\\OneDrive\\\\Робочий стіл\\\\Папка в папці\\\\Portfolio\\\\esports-dashboard/components/players\")",
+      "Bash(mkdir -p \"C:\\\\Users\\\\ASUS\\\\OneDrive\\\\Робочий стіл\\\\Папка в папці\\\\Portfolio\\\\esports-dashboard/components/teams\")",
+      "Bash(npm install:*)",
+      "Bash(npm run:*)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:3000)",
+      "Bash(curl -s http://localhost:3000/api/matches)",
+      "Bash(curl -s \"http://localhost:3000/api/matches?status=live\")",
+      "Bash(python -c \"import sys,json; d=json.load\\(sys.stdin\\); print\\(f'{len\\(d\\)} live matches'\\)\")",
+      "Bash(curl -s http://localhost:3000/bracket -o /dev/null -w \"%{http_code}\")",
+      "Bash(curl -s http://localhost:3000/players -o /dev/null -w \"%{http_code}\")",
+      "Bash(curl -s http://localhost:3000/teams -o /dev/null -w \"%{http_code}\")",
+      "Bash(node -e \"let d=''; process.stdin.on\\('data', c => d+=c\\); process.stdin.on\\('end', \\(\\) => console.log\\(JSON.parse\\(d\\).length + ' live matches'\\)\\)\")",
+      "Bash(curl -s http://localhost:3000/bracket -o /dev/null -w \"bracket: %{http_code}\\\\n\")",
+      "Bash(curl -s http://localhost:3000/players -o /dev/null -w \"players: %{http_code}\\\\n\")",
+      "Bash(curl -s http://localhost:3000/teams -o /dev/null -w \"teams: %{http_code}\\\\n\")",
+      "Bash(curl -s \"http://localhost:3000/api/teams?game=Valorant\")",
+      "Bash(node -e \"let d=''; process.stdin.on\\('data', c => d+=c\\); process.stdin.on\\('end', \\(\\) => console.log\\('Valorant teams: ' + JSON.parse\\(d\\).length\\)\\)\")",
+      "Bash(npx tsc:*)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:5174)",
+      "Bash(python -c \"import json,sys; d=json.load\\(sys.stdin\\); print\\(d.get\\('dependencies',{}\\).get\\('next','?'\\)\\)\")",
+      "Bash(npm create *)"
+    ]
+  }
+}
