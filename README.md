@@ -23,7 +23,7 @@ avilov-portfolio/
 3. Message **@userinfobot** — it replies with your **numeric chat ID**
 4. Send **any message** to your new bot from your personal account (so it can reply to you)
 
-## 🖥 Step 2 — Local development
+## 🖥 Step 2 — Local developmen
 
 Copy `.env.local.example` → `.env.local` and fill in real values:
 
